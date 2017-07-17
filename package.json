@@ -1,9 +1,11 @@
 {
-  "name": "bitcore-ecies",
+  "name": "bitcore-ecies-syscoin",
   "version": "1.0.3",
-  "description": "ECIES implemented for Bitcore.",
+  "description": "ECIES implemented for Syscoin Core.",
   "main": "index.js",
   "directories": {
+    "doc": "docs",
+    "lib": "lib",
     "test": "test"
   },
   "scripts": {
@@ -14,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/bitcore-ecies.git"
+    "url": "git+https://github.com/sidhujag/bitcore-ecies.git"
   },
   "keywords": [
     "bitcoin",
@@ -40,6 +42,6 @@
   },
   "dependencies": {
     "aes": "^0.1.0",
-    "bitcore-lib": "^0.14.0"
+    "bitcore-lib-syscoin": "^0.14.0"
   }
 }

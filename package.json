@@ -1,6 +1,6 @@
 {
   "name": "bitcore-ecies-syscoin",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "ECIES implemented for Syscoin Core.",
   "main": "index.js",
   "directories": {
